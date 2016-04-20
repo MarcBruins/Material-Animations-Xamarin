@@ -3,15 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Material-Animations", "Material-Animations\Material-Animations.csproj", "{AAC7342F-A1E1-4D39-82A0-FE9BCBF8BE66}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{75FA1468-1049-4EB6-B8F8-D6681B7D6488}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransitionSample", "TransitionSample\TransitionSample.csproj", "{1AFC529B-E969-401F-B3DE-1C46E0654B71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AFC529B-E969-401F-B3DE-1C46E0654B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AFC529B-E969-401F-B3DE-1C46E0654B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AFC529B-E969-401F-B3DE-1C46E0654B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AFC529B-E969-401F-B3DE-1C46E0654B71}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AAC7342F-A1E1-4D39-82A0-FE9BCBF8BE66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AAC7342F-A1E1-4D39-82A0-FE9BCBF8BE66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAC7342F-A1E1-4D39-82A0-FE9BCBF8BE66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAC7342F-A1E1-4D39-82A0-FE9BCBF8BE66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1AFC529B-E969-401F-B3DE-1C46E0654B71} = {75FA1468-1049-4EB6-B8F8-D6681B7D6488}
 	EndGlobalSection
 EndGlobal
